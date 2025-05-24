@@ -39,7 +39,7 @@ export default function ProjectsPage() {
     {
       id: 4,
       title: " 🥗 Smart Nutrition Guide",
-      description: "An AI-powered dietary recommendation system that analyzes user preferences, health goals, and nutritional needs to deliver personalized meal plans and smart eating suggestions for a healthier lifestyle.",
+      description: "A smart web application that helps users take control of their health by tracking daily calorie intake, meals, water consumption, and fitness goals. NutriTrack offers personalized food and exercise recommendations based on real-time input, with intelligent reminders and progress insights to support weight loss, gain, or maintenance..",
       image: "/nutrition.png?height=300&width=600&text=Weather+Dashboard",
       technologies: ["React", "OpenWeather API", "Chart.js"],
       github: "https://github.com",
