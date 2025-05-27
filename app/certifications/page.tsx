@@ -8,7 +8,17 @@ export default function CertificationsPage() {
   
   const certifications = [
     {
-      id: 1,
+      id: 8,
+      title: "Introduction to Artificial Intelegence (AI)",
+      issuer: "IBM | Hosted on Alison | CPD Certified",
+      date: "May 2025",
+      description: "I successfully completed the 'Introduction to Artificial Intelligence (AI)' course, published by IBM Corporation and delivered through the Alison learning platform. This CPD-certified course, aligned with industry standards, explores AI fundamentals, including the principles of machine learning, generative AI applications, natural language processing (NLP), and deep learning's role in industry breakthroughs. I completed all lessons and exercises but could not afford the paid certificate. The displayed certificate is a sample, and I’ve included a screenshot of the official IBM publisher details for verification and transparency.",
+      image: "/AIalison.png?height=200&width=300&text=AI course Certificate",
+      link: "/AIalison.png",
+    },
+
+    {
+      id: 7,
       title: "Responsive Web Design Certification",
       issuer: "freeCodeCamp",
       date: "May 2025",
@@ -16,8 +26,9 @@ export default function CertificationsPage() {
       image: "/freeCodeCamp-certificate.png?height=200&width=300&text=freeCodeCamp Certificate",
       link: "https://freecodecamp.org/certification/fcc7017f0f3-041c-4b66-9b96-052a1ecff69a/responsive-web-design",
     },
+
     {
-      id: 2,
+      id: 6,
       title: "Certification Of Achievement",
       issuer: "BinLab",
       date: "May 2025",
@@ -27,9 +38,9 @@ export default function CertificationsPage() {
     },
    
     {
-      id: 3,
+      id: 5,
       title: "Certification Of Achievement",
-      issuer: "",
+      issuer: "SheCodes",
       date: "March 2025",
       description: "1st place as a team at the She Codes Hackathon.",
       image: "/shecodeshackathon.jpg?height=200&width=300&text=Certification Of Achievement",
@@ -37,29 +48,38 @@ export default function CertificationsPage() {
     },
     {
       id: 4,
+      title: "React JavaScript",
+      issuer: "Digital Partner | Hosted on Alison | CPD Certified",
+      date: "January 2025",
+      description: "I successfully completed the 'React JavaScript – Fundamentals to Coding & New Beginnings' course, published by Digital Partner and delivered via the Alison learning platform. This CPD-certified course, aligned with industry standards, covers modern JavaScript, React fundamentals, component structures, hooks (e.g., useState, useEffect), and single-page app concepts. I completed all lessons and exercises but could not afford the paid certificate. The displayed certificate is a sample, and I’ve included a screenshot of the official publisher details for verification and transparency.",
+      image: "/reactalison.png?height=200&width=300&text=JavaScript+Certification",
+      link: "reactalison.png",
+    },
+    {
+      id: 3,
       title: "Gig-101 Business, Legal and Finance",
-      issuer: "M-Academy",
+      issuer: "Mesrat Ethiopia",
       date: "November 2024",
       description: "This comprehensive certification program equips participants with essential knowledge in legal principles, business operations, and financial management. It covers key areas such as contracts and compliance, strategic planning, leadership, budgeting, and financial analysis. Ideal for aspiring professionals, the training enhances decision-making, legal awareness, and financial literacy, preparing individuals for success in a wide range of organizational and entrepreneurial roles",
-      image: "/macademy.png?height=200&width=300&text=JavaScript+Certification",
+      image: "/macademy.png?height=200&width=300&text=Certification",
       link: "macademy.png",
     },
     {
-      id: 5,
+      id: 2,
       title: "Digital Litracy Training",
       issuer: "Kefta",
       date: "August 2024",
       description: "A program designed to equip individuals with the essential skills to confidently use digital tools, technologies, and the internet. It covers basic computer operations, online communication, internet safety, and the effective use of digital resources for work, education, and daily life. This training empowers participants to navigate the digital world efficiently and responsibly..",
-      image: "/digitalcertificate.jpg?height=200&width=300&text=UI/UX+Certification",
+      image: "/digitalcertificate.jpg?height=200&width=300&text=Certification",
       link: "/digitalcertificate.jpg",
     },
     {
-      id: 6,
+      id: 1,
       title: "High School Diploma",
       issuer: "Blessed Gebre Michael Catholic School",
       date: "September 2022",
       description: ".",
-      image: "/highschooldiploma.jpg?height=200&width=300&text=AWS+Certification",
+      image: "/highschooldiploma.jpg?height=200&width=300&text=Certification",
       link: "/highschooldiploma.jpg",
     },
   
@@ -79,6 +99,7 @@ export default function CertificationsPage() {
           <div key={cert.id} className="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden">
             <div className="relative h-40 overflow-hidden">
               <Image src={cert.image || "/placeholder.svg"} alt={cert.title} fill className="object-cover" />
+               
             </div>
             <div className="p-4">
               <div className="flex items-center gap-2 mb-2">
