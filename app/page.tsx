@@ -7,7 +7,7 @@ import { DownloadButton } from "@/components/downloadBtn"
 
 export default function Home() {
   // Replace with your skills
-  const skills = ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Node.js", "HTML"," CSS", "Git"]
+  const skills = ["HTML","CSS","JavaScript","React", "Tailwind CSS","Next.js", "TypeScript", "Node.js", "Git/Github","MySQL","Python"]
 
   return (
     <div className="container px-4 md:px-6">
@@ -34,7 +34,7 @@ export default function Home() {
     </div>
           </div>
           <div className="flex gap-4 pt-4">
-            <Link href="https://github.com/tsadkankelemework" target="_blank" rel="noreferrer">
+            <Link href="https://github.com/tsadkankelemework2121" target="_blank" rel="noreferrer">
               <Github className="h-6 w-6 text-muted-foreground hover:text-foreground" />
               <span className="sr-only">GitHub</span>
             </Link>

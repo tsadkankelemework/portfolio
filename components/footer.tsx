@@ -9,7 +9,7 @@ export default function Footer() {
           © {new Date().getFullYear()} Tsadkan Kelemework. All rights reserved.
         </div>
         <div className="flex items-center gap-4">
-          <Link href="https://github.com/tsadkankelemework" target="_blank" rel="noreferrer">
+          <Link href="https://github.com/tsadkankelemework2121" target="_blank" rel="noreferrer">
             <Github className="h-5 w-5 text-muted-foreground hover:text-foreground" />
             <span className="sr-only">GitHub</span>
           </Link>
